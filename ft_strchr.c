@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 14:05:20 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/23 18:11:18 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/30 17:28:29 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,14 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	if (*s == '\0')
-	{
-		if (c == '\0')
-			return ((char *)s);
-		else
-			return (NULL);
-	}
-	if (*s == (char)c)
-	{
+	unsigned char	cc;
+
+	cc = (unsigned char)c;
+	while (*s && *s != cc)
+		s++;
+	if (*s == cc)
 		return ((char *)s);
-	}
-	return (strchr(s +1, c));
+	return (NULL);
 }
 /*
 int main()
