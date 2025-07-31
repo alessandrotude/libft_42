@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 16:17:11 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/23 16:41:18 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 10:05:44 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,20 +33,3 @@ char	*ft_strmapi(char const *s, char (*f) (unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-/*
-char example_f(unsigned int i, char c)
-{
-	if (i % 2 == 0 && c >= 'a' && c <= 'z')
-		return (c - 32); // maiúscula se índice par
-	return (c);
-}
-int main(void)
-{
-	char *s = "abcdef";
-	char *new_s = ft_strmapi(s, example_f);
-	printf("Original: %s\n", s);
-	printf("Modificado: %s\n", new_s);
-	free(new_s);
-	return 0;
-}
-*/

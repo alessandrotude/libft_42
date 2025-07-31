@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 19:37:26 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/23 15:43:12 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 10:07:16 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,23 +54,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	cut_str[i] = '\0';
 	return (cut_str);
 }
-/*
-int	main(void)
-{
-	char *s1 = "   ---Hello, World!!!---   ";
-	char *set = " -!";
-	char *result = ft_strtrim(s1, set);
-
-	if (result)
-	{
-		printf("Original: \"%s\"\n", s1);
-		printf("Trimmed:  \"%s\"\n", result);
-		free(result);
-	}
-	else
-	{
-		printf("Erro ao alocar memória.\n");
-	}
-	return (0);
-}
-*/

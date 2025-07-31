@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/21 19:11:00 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/22 19:47:14 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 09:58:06 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,23 +28,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(ptr, value);
 	return (ptr);
 }
-/*
-int main(void)
-{
-    size_t i;
-    int *array = (int *)ft_calloc(5, sizeof(int));
-
-    if (!array)
-    {
-        printf("Falha na alocação de memória.\n");
-        return 1;
-    }
-
-    // Verifica se os valores estão zerados
-    for (i = 0; i < 5; i++)
-        printf("array[%zu] = %d\n", i, array[i]);
-
-    free(array); // Libera a memória alocada
-    return 0;
-}
-*/

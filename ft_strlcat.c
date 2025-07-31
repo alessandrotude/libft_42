@@ -6,13 +6,13 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 11:23:07 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/23 18:25:18 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 12:04:59 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-unsigned int	ft_strlcat(char *dest, const char *src, unsigned int size)
+size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	unsigned int	d;
 	unsigned int	s;
@@ -36,14 +36,3 @@ unsigned int	ft_strlcat(char *dest, const char *src, unsigned int size)
 		dest [d + i] = '\0';
 	return (d + s);
 }
-/*
-int	main(void)
-{
-	char dest[10] = "Bem ";
-	char src[] = "Vindo";
-
-	ft_strlcat(dest, src, sizeof(dest));
-	printf("Nova string: %s\n", dest);
-	return (0);
-}
-*/

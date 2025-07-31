@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 18:31:44 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/22 19:46:51 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 10:03:52 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,21 +36,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	result [i + j] = '\0';
 	return (result);
 }
-/*
-int main(void)
-{
-	char *str1 = "Hello, ";
-	char *str2 = "42 São Paulo!";
-	char *joined = ft_strjoin(str1, str2);
-
-	if (joined)
-	{
-		printf("Resultado: %s\n", joined);
-		free(joined);
-	}
-	else
-		printf("Falha na alocação de memória.\n");
-
-	return 0;
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 17:11:36 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/23 17:50:23 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 19:03:17 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,15 +31,3 @@ void	ft_putnbr_fd(int n, int fd)
 	c = n % 10 + '0';
 	write (fd, &c, 1);
 }
-/*
-int	main(void)
-{
-	ft_putnbr_fd(1234, 1);
-	write(1, "\n", 1);
-	ft_putnbr_fd(-9876, 1);
-	write(1, "\n", 1);
-	ft_putnbr_fd(-2147483648, 1);
-	write(1, "\n", 1);
-	return (0);
-}
-*/

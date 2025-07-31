@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 19:14:12 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/18 12:02:53 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 10:01:06 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,17 +36,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		d[i] = s[i];
 	return (dest);
 }
-/*
-int	main(void)
-{
-	char buffer[] = "ABCDEF";
-
-	printf("Antes: %s\n", buffer);
-
-	ft_memmove(&buffer[2], &buffer[0], 4);
-
-	printf("Depois: %s\n", buffer);
-
-	return (0);
-}
-*/

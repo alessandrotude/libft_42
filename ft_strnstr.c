@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/21 17:17:27 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/21 18:13:00 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 10:06:41 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,19 +31,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	const char	*text = "42 São Paulo é incrível!";
-	const char	*find = "São";
-	const char	*result;
-
-	result = ft_strnstr(text, find, 20);
-	if (result != NULL)
-		printf("Substring encontrada: \"%s\"\n", result);
-	else
-		printf("Substring não encontrada.\n");
-
-	return (0);
-}
-*/

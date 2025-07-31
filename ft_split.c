@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 13:20:40 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/23 15:48:28 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 10:01:25 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,60 +107,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (split);
 }
-/*
-int	main(void)
-{
-	char	**result;
-	int		i;
-
-	// Teste 1
-	printf("Teste 1:\n");
-	result = ft_split("hello world from 42", ' ');
-	if (result)
-	{
-		i = 0;
-		while (result[i])
-		{
-			printf("result[%d] = \"%s\"\n", i, result[i]);
-			free(result[i]);
-			i++;
-		}
-		free(result);
-	}
-	printf("\n");
-
-	// Teste 2
-	printf("Teste 2:\n");
-	result = ft_split(",,abc,,def,,ghi,,", ',');
-	if (result)
-	{
-		i = 0;
-		while (result[i])
-		{
-			printf("result[%d] = \"%s\"\n", i, result[i]);
-			free(result[i]);
-			i++;
-		}
-		free(result);
-	}
-	printf("\n");
-
-	// Teste 3
-	printf("Teste 3:\n");
-	result = ft_split("oneword", ',');
-	if (result)
-	{
-		i = 0;
-		while (result[i])
-		{
-			printf("result[%d] = \"%s\"\n", i, result[i]);
-			free(result[i]);
-			i++;
-		}
-		free(result);
-	}
-	printf("\n");
-
-	return (0);
-}
-*/

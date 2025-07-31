@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 15:51:53 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/23 16:15:41 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 09:58:36 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,14 +52,3 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
-/*
-int main(void)
-{
-	printf("ft_itoa(0) = %s\n", ft_itoa(0));
-	printf("ft_itoa(123) = %s\n", ft_itoa(123));
-	printf("ft_itoa(-456) = %s\n", ft_itoa(-456));
-	printf("ft_itoa(INT_MAX) = %s\n", ft_itoa(INT_MAX));
-	printf("ft_itoa(INT_MIN) = %s\n", ft_itoa(INT_MIN));
-	return 0;
-}
-*/

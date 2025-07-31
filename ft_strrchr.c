@@ -6,7 +6,7 @@
 /*   By: aletude- <aletude-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 17:43:17 by aletude-          #+#    #+#             */
-/*   Updated: 2025/07/23 18:09:37 by aletude-         ###   ########.fr       */
+/*   Updated: 2025/07/31 10:07:05 by aletude-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,32 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-/*
-int main(void)
-{
-    const char *texto = "exemplo de string";
-    char caractere = 'e';
-    char *resultado;
-
-    resultado = strrchr(texto, caractere);
-
-    if (resultado != NULL)
-    {
-        printf("caractere '%c' encontrada na posição: %ld\n");
-        printf("Substring a partir dessa posição: \"%s\"\n", resultado);
-    }
-    else
-    {
-        printf("Caractere '%c' não encontrado na string.\n", caractere);
-    }
-    resultado = strrchr(texto, '\0');
-    printf("Posição do caractere nulo '\\0': %ld\n", resultado - texto);
-
-    resultado = strrchr(texto, 'z');
-    if (resultado == NULL)
-        printf("Caractere 'z' não encontrado na string.\n");
-
-    return 0;
-}
-*/
