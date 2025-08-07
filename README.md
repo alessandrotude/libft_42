@@ -121,7 +121,7 @@ libft/
 ## 🚀 Próximo passo
 
 O conhecimento adquirido aqui vai ser essencial para os próximos projetos, como:
-printf
-get_next_line
-born2beroot
+-	printf
+-	get_next_line
+-	born2beroot
 ---
