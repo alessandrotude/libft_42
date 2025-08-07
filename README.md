@@ -121,13 +121,7 @@ libft/
 ## 🚀 Próximo passo
 
 O conhecimento adquirido aqui vai ser essencial para os próximos projetos, como:
-
-- [`ft_printf`](https://github.com/seuuser/ft_printf)
-- [`get_next_line`](https://github.com/seuuser/get_next_line)
-- [`push_swap`](https://github.com/seuuser/push_swap)
-
+printf
+get_next_line
+born2beroot
 ---
-
-## 👨‍💻 Autor
-
-- **Seu Nome** – [@seuuser](https://github.com/seuuser)
